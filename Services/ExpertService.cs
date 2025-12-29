@@ -13,6 +13,20 @@ namespace Fiorello.Services
         {
             _context = context;
         }
+
+        public async Task<IEnumerable<ExpertVM>> GetAllAdminAsync()
+        {
+            var experts = await _context.Experts.Select(e => new ExpertVM
+            {
+
+                FullName = e.FullName,
+                Position = e.Position,
+                Image = e.Image
+            }).ToListAsync();
+            return experts;
+
+        }
+
         public async Task<IEnumerable<ExpertUIVM>> GetAllAsync()
         {
             IEnumerable<ExpertUIVM> experts = await _context.Experts.

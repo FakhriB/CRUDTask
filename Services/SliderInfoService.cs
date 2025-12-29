@@ -13,6 +13,21 @@ namespace Fiorello.Services
         {
             _context = context;
         }
+
+        public async Task<SliderInfoVM> GetInfoAdminAsync()
+        {
+            var sliderInfo = await _context.SliderInfos.
+                Select(si => new SliderInfoVM
+                {
+                    Title = si.Title,
+                    Description = si.Description,
+                    SignatureImage = si.SignatureImage
+                })
+                .FirstOrDefaultAsync();
+            return sliderInfo;
+        }
+
+
         public async Task<SliderInfoUIVM> GetInfoAsync()
         {
             var sliderInfo = await _context.SliderInfos.

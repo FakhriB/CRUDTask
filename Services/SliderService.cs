@@ -13,6 +13,19 @@ namespace Fiorello.Services
         {
             _context = context;
         }
+
+        public async Task<IEnumerable<SliderVM>> GetAllAdminAsync()
+        {
+            IEnumerable<SliderVM> sliders = await _context.Sliders.
+                Select(s => new SliderVM
+                {
+                    Image = s.Image
+                })
+                .ToListAsync();
+            return sliders;
+
+        }
+
         public async Task<IEnumerable<SliderUIVM>> GetAllAsync()
         {
             IEnumerable<SliderUIVM> sliders = await _context.Sliders.

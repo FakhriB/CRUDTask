@@ -13,6 +13,20 @@ namespace Fiorello.Services
         {
             _context = context;
         }
+
+        public async Task<IEnumerable<BlogVM>> GetAllAdminAsync()
+        {
+            var blogs = await _context.Blogs.Select(b => new BlogVM
+            {
+                Id = b.Id,
+                Title = b.Title,
+                Description = b.Description,
+                Image = b.BlogImages.FirstOrDefault(i => i.IsMain).Image,
+                CreatedDate = b.CreatedDate
+            }).ToListAsync();
+            return blogs;
+        }
+
         public async Task<IEnumerable<BlogUIVM>> GetAllAsync()
         {
             IEnumerable<BlogUIVM> blogs = await _context.Blogs.

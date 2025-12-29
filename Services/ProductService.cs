@@ -12,6 +12,19 @@ namespace Fiorello.Services
         {
             _context = context;
         }
+
+        public async Task<IEnumerable<ProductVM>> GetAllAdminAsync()
+        {
+            var products = await _context.Products.Include(m => m.ProductImages).Select(p => new ProductVM
+            {
+                Name = p.Name,
+                Price = p.Price,
+                CategoryId = p.CategoryId,
+                Image = p.ProductImages.FirstOrDefault(m => m.IsMain).Image
+            }).ToListAsync();
+            return products;
+        }
+
         public async Task<IEnumerable<ProductUIVM>> GetAllAsync()
         {
             var products = await _context.Products.Include(m => m.ProductImages).Select(p => new ProductUIVM
@@ -23,6 +36,11 @@ namespace Fiorello.Services
                 Image = p.ProductImages.FirstOrDefault(m => m.IsMain).Image
             }).ToListAsync();
             return products;
+        }
+
+        public Task<ProductDetailVM> GetByIdAsync(int? id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
