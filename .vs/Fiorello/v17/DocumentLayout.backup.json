@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|c:\\users\\fakhrib\\source\\repos\\adminpanelproject\\relationscategorywithproduct\\fiorello\\areas\\admin\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|solutionrelative:areas\\admin\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|c:\\users\\fakhrib\\source\\repos\\adminpanelproject\\relationscategorywithproduct\\fiorello\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|solutionrelative:areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|c:\\users\\fakhrib\\source\\repos\\adminpanelproject\\relationscategorywithproduct\\fiorello\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|c:\\users\\fakhrib\\source\\repos\\adminpanelproject\\relationscategorywithproduct\\fiorello\\viewmodels\\category\\categroydetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|solutionrelative:viewmodels\\category\\categroydetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|c:\\users\\fakhrib\\source\\repos\\adminpanelproject\\relationscategorywithproduct\\fiorello\\areas\\admin\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|solutionrelative:areas\\admin\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|c:\\users\\fakhrib\\source\\repos\\adminpanelproject\\relationscategorywithproduct\\fiorello\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A577023-80F4-4FE1-A1A9-DD5895E79DF8}|Fiorello.csproj|solutionrelative:areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "ToolTip": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T10:06:46.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T09:52:27.79Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,28 +68,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Detail.cshtml*",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Detail.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-06T09:43:42.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategroyDetailVM.cs",
-              "DocumentMoniker": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\ViewModels\\Category\\CategroyDetailVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Category\\CategroyDetailVM.cs",
-              "ToolTip": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\ViewModels\\Category\\CategroyDetailVM.cs",
-              "RelativeToolTip": "ViewModels\\Category\\CategroyDetailVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:42:57.996Z",
               "EditorCaption": ""
             },
             {
@@ -70,7 +87,7 @@
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\FakhriB\\source\\repos\\AdminPanelProject\\RelationsCategoryWithProduct\\Fiorello\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwDsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T09:37:12.287Z",
               "EditorCaption": ""
